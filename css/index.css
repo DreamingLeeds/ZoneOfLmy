@@ -81,7 +81,7 @@ a {
   height: 100px;
   width: 100px;
   border-radius: 50px;
-  border: #ccc solid 4px;
+  border: #ccc solid 2px;
   background: url(../images/self-avator.jpg) center center no-repeat;
   background-size:100px 100px;
 }
@@ -187,8 +187,8 @@ a {
   .main-content blockquote > :last-child {
     margin-bottom: 0; }
 .main-content table {
-  display: block;
   width: 100%;
+  display: block;
   overflow: auto;
   word-break: normal;
   word-break: keep-all; }
@@ -254,3 +254,21 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+
+/*个人信息*/
+.p-info{}
+.p-info-d{ width: 50%;  float: left;}
+@media screen and (min-width: 46em) {
+  .p-info-d {
+    height:40px; line-height: 40px;overflow: hidden;
+  }
+}
+@media screen and (max-width: 46em) {
+  .p-info-d {
+    width: 100%;
+    line-height: 40px;
+  }
+}
+
+.clear-f{ clear: both;}
