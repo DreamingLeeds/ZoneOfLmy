@@ -9,7 +9,7 @@ gulp.task('default',['minifyCss','minifyHtml']);
 gulp.task('minifyHtml',function(){
     gulp.src('wapdev/*.html')
         .pipe(minifyHtml())
-        .pipe(gulp.dest('wap'))
+        .pipe(gulp.dest('wap'));
     console.log('html压缩完成');
 });
 
@@ -24,6 +24,6 @@ gulp.task('minifyCss',function(){
 gulp.task('uglify',function(){
     gulp.src('wapdev/js/*.js')
         .pipe(uglify())
-        .pipe(gulp.dest('wap/js'))
+        .pipe(gulp.dest('wap/js'));
     console.log('js压缩完成');
 });
