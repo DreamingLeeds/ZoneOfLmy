@@ -1,0 +1,1 @@
+var websiteUrl="http://dreamingleeds.github.io/ZoneOfLmy/";
