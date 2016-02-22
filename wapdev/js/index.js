@@ -1,3 +1,5 @@
+new WOW().init();
+
 if (typeof Lmy == "undefined") {
     var Lmy = {};
 }

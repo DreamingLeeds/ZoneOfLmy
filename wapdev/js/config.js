@@ -1,1 +1,1 @@
-var websiteUrl="file:///D:/work/gulp-ZoneOfLmy/wap/";
+var websiteUrl="http://dreamingleeds.github.io/ZoneOfLmy/";
